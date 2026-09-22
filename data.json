@@ -1,12 +1,32 @@
 {
   "store": {
     "name": "Laziez Donuts",
-    "tagline": "by Mumtaaz Donuts",
-    "address": "Jl. Karimata No.30, Gumuk Kerang, Sumbersari, Kec. Sumbersari, Jember",
+    "tagline": "Happiness in every bite",
+    "logo": "https://lh3.googleusercontent.com/d/1ll34e7rAr0_9mV_ohzgIeKCOpUMG5MP-",
+    "address": "Jl. Basuki Nash (depan POM bensin Pasar Sabtuan)",
     "hours": "08.00 - 20.00 WIB",
-    "instagram": ,
-    "whatsapp": "6289506294296"
+    "instagram": "https://www.instagram.com/dedonutsjember?stkn=MTR1dnJiYnE1Zzg3Yg==",
+    "instagram_handle": "@dedonutsjember",
+    "whatsapp": "6285336336999"
   },
+  "tutorial": [
+    {
+      "step": 1,
+      "title": "Pilih Donat",
+      "description": "Klik tombol <b>+ Tambah</b> pada rasa donat kesukaanmu."
+    },
+    {
+      "step": 2,
+      "title": "Atur Catatan & Jumlah",
+      "description": "Buka keranjang untuk menyesuaikan jumlah & rasa topping khusus."
+    },
+    {
+      "step": 3,
+      "title": "Kirim WA",
+      "description": "Klik 'Pesan via WhatsApp', sistem akan membuat nota otomatis untuk dikirim ke admin!"
+    }
+  ],
+  "wa_template": "Halo Kak admin {store_name}! 🍩\n\nSaya ingin memesan donat dengan rincian berikut:\n📄 No. Invoice: {code}\n👤 Nama Pemesan: {name}\n🛵 Metode: {order_type}\n{address_line}💰 Total Bayar: Rp {total}\n\n📎 Catatan: File foto Invoice JPG sudah otomatis terunduh di perangkat saya dan saya lampirkan pada pesan ini ya kak.\n\nMohon segera dikonfirmasi & diproses. Terima kasih! ✨",
   "categories": [
     {
       "id": "all",
