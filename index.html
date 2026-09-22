@@ -976,19 +976,19 @@
             }
 
             // Construct refined WhatsApp Message Text
-            let waMessage = `Halo Kak admin De Donuts! 🍩\n\n`;
+            let waMessage = `Halo Kak admin Laziez Donuts! \n\n`;
             waMessage += `Saya ingin memesan donat dengan rincian berikut:\n`;
-            waMessage += `📄 *No. Invoice:* ${currentInvoice.code}\n`;
-            waMessage += `👤 *Nama Pemesan:* ${currentInvoice.name}\n`;
-            waMessage += `🛵 *Metode:* ${currentInvoice.orderType}\n`;
+            waMessage += ` *No. Invoice:* ${currentInvoice.code}\n`;
+            waMessage += ` *Nama Pemesan:* ${currentInvoice.name}\n`;
+            waMessage += ` *Metode:* ${currentInvoice.orderType}\n`;
             if (currentInvoice.address !== '-') {
-                waMessage += `📍 *Alamat:* ${currentInvoice.address}\n`;
+                waMessage += ` *Alamat:* ${currentInvoice.address}\n`;
             }
-            waMessage += `💰 *Total Bayar:* Rp ${currentInvoice.totalAmount.toLocaleString('id-ID')}\n\n`;
-            waMessage += `📎 *Catatan:* File foto *Invoice JPG* sudah otomatis terunduh di perangkat saya dan saya lampirkan pada pesan ini ya kak.\n\n`;
-            waMessage += `Mohon segera dikonfirmasi & diproses. Terima kasih! ✨`;
+            waMessage += ` *Total Bayar:* Rp ${currentInvoice.totalAmount.toLocaleString('id-ID')}\n\n`;
+            waMessage += ` *Catatan:* File foto *Invoice JPG* sudah otomatis terunduh di perangkat saya dan saya lampirkan pada pesan ini ya kak.\n\n`;
+            waMessage += `Mohon segera dikonfirmasi & diproses. Terima kasih! `;
 
-            const phone = storeData.store.whatsapp || "6285336336999";
+            const phone = storeData.store.whatsapp || "6289506294296";
             const encoded = encodeURIComponent(waMessage);
             const waURL = `https://wa.me/${phone}?text=${encoded}`;
 
